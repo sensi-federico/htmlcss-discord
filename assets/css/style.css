@@ -190,14 +190,15 @@ h1 {
     word-spacing: -1rem;
     line-height: 2.5rem;
     padding-bottom: 1rem;
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 
-#no-padding-top {
+.no-padding-top {
     font-size: 40px;
     word-spacing: -1rem;
     line-height: 2.5rem;
     padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .grey_back {
@@ -205,12 +206,29 @@ h1 {
 }
 
 .green {
-    background-color: var(--darker-main);
     max-width: 1200px;
-    width: 100%;
-    height: 600px;
-    margin: 2rem auto;
+    width: 90%;
+    /* height: 600px; */
+    margin: 3rem auto;
+    text-align: center;
 }
+
+h3 {
+    font-size: 30px;
+    word-spacing: -0.5rem;
+}
+
+#blue_button {
+    margin-top: 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 1rem;
+    background-color: #7289DA;
+    color: white;
+}
+
 /* #endregion main */
 
 /* #region footer */
