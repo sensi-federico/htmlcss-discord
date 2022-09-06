@@ -94,9 +94,15 @@ a:hover {
     display: flex;
     background-color: #255EE9;
     padding: 1rem 1rem;
-    margin: 0 10rem;
-    justify-content: space-between;
+    margin: auto;
+    justify-content: space-around;
     align-items: center;
+}
+
+#links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
 }
 
 #login #log {
@@ -111,7 +117,7 @@ a:hover {
 
 /* #endregion header */
 
-/* #region smain */
+/* #region main */
 
 .blue_back {
     /* background-color: var(--primary-color); */
@@ -140,6 +146,7 @@ h1 {
 
 .head_block p {
     padding-bottom: 2rem;
+    line-height: 1.5rem;
 }
 
 .download_buttons #white, #black{
@@ -180,8 +187,9 @@ h1 {
     height: 600px;
     margin: 2rem auto;
 }
+/* #endregion main */
 
-/* footer */
+/* #region footer */
 
 #site_footer {
     background-color: var(--darker);
@@ -215,3 +223,4 @@ h1 {
     border: 1px solid black;
 }
 
+/* #endregion footer */
