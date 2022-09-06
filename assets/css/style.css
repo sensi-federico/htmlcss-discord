@@ -55,7 +55,12 @@ body {
     width: calc( (100% / 12) * 12 );
 }
 
-a {
+.header_links {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_links {
     text-decoration: none;
     color: white;
 }
@@ -227,6 +232,31 @@ h3 {
     margin: 0.5rem 1rem;
     background-color: #7289DA;
     color: white;
+}
+
+.main_utilities {
+    background-color: #23272A;
+    color: white;
+}
+
+.main_utilities h3, h4 {
+    color: #7289DA;
+    padding-top: 2rem;
+}
+
+#selector {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.bandiera_lingua {
+    width: 1rem;
+}
+
+i {
+    padding: 0.5rem 0.5rem 0 0;
 }
 
 /* #endregion main */
