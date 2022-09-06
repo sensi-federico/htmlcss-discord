@@ -223,6 +223,12 @@ h3 {
     word-spacing: -0.5rem;
 }
 
+#ready {
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    background-size: contain;
+}
+
 #blue_button {
     margin-top: 2rem;
     border: none;
@@ -281,18 +287,24 @@ i {
 }
 
 .box_footer {
-    background-color: var(--light-main);
     height: 80px;
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid #7289DA;
+    margin-top: 2rem;
 }
 
 .footer_logo,
 .sign_in {
-    background-color: #ffb6c1;
-    padding: 0.5rem;
-    border: 1px solid black;
+    margin: 1rem;
 }
 
+.sign_in {
+    background-color: #7289DA;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
 /* #endregion footer */
