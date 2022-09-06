@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 65%;
+    width: 70%;
     max-width: 1200px;
     margin: auto;
 }
@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /* align-items: center; */
 }
 
 .col-2 {
@@ -44,6 +45,10 @@ body {
 
 .col-7 {
     width: calc( (100% / 12) * 7 );
+}
+
+.col-8 {
+    width: calc( (100% / 12) * 8 );
 }
 
 .col-12 {
@@ -142,11 +147,13 @@ h1 {
     font-family: 'Padauk', sans-serif;
     font-size: 47px;
     padding-bottom: 1rem;
+    word-spacing: -1rem;
 }
 
 .head_block p {
     padding-bottom: 2rem;
     line-height: 1.5rem;
+    word-spacing: -0.2rem;
 }
 
 .download_buttons #white, #black{
@@ -163,17 +170,34 @@ h1 {
     color: white;
 }
 
+#black:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 .blue {
-    background-color:  var(--dark);
-    height: 350px;
-    margin: 2rem 0;
+    /* height: 350px; */
+    margin: 4rem 0;
 }
 
 .pink {
-    background-color: var(--light-footer);
-    height: 350px;
-    margin: 2rem 0;
+    /* height: 350px; */
+    margin: 4rem auto;
+}
+
+.padding {
+    font-size: 40px;
+    word-spacing: -1rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 10rem;
+}
+
+#no-padding-top {
+    font-size: 40px;
+    word-spacing: -1rem;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 .grey_back {
